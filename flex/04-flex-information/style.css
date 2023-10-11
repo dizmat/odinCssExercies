@@ -24,3 +24,37 @@ img {
   justify-content: center;
   background: #eee;
 }
+
+.title {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 32px;
+}
+
+.image1, .image2, .image3, .image4 {
+  width: 200px;
+}
+
+.text{
+  text-align: center;
+}
+/* the magic is here. Instead of just the text, center everything in body */
+
+.all {
+  display: flex;
+  justify-content: center;
+  gap: 52px;
+  align-items: center;
+}
+
+/* I can't get the images to sit in the middle
+no clue where to even */
+
+.text{
+  text-align: center;
+}
+/* the magic is here. Instead of just the text, center everything in body */
+
+/* body {
+  text-align: center;
+} */

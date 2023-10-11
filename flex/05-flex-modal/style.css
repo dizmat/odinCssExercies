@@ -67,3 +67,32 @@ button.cancel {
   border: 1px solid #ddd;
   color: royalblue;
 }
+
+.modal {
+  display: flex;
+  /* justify-content: center; */
+  padding: 12px;
+  gap: 12px;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  font-weight: 700;
+  font-size: larger;
+  
+}
+
+.icon {
+  flex-shrink: 0;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+/* not gonna lie, found this to be alright diff
+finished before I even knew what was going on so maybe not the best for learning 
+realized that there are multiple ways to achieve the same outcome*/
